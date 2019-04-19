@@ -27,14 +27,13 @@ def find_a(array)
   array.select {|i| i.start_with?("a")}
 end
 
-def sum_array
-   
-  
+def sum_array(array)
+
 end
 
 def add_s(array)
   array.map do |w|
-    if w[1] == w
+    if w == w[1]
       w
     else 
       w + "s"
