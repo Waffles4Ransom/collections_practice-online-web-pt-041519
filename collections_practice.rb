@@ -12,7 +12,6 @@ end
 
 def swap_elements(array)
   array[1],array[2] = array[2], array[1]
-  
 end
 
 def reverse_array(array)
@@ -20,7 +19,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  
+  array.each {|x| x[2] = "$"}
 end
 
 def find_a(array)
