@@ -33,7 +33,7 @@ end
 
 def add_s(array)
   array.map do |w|
-    if w == w[1]
+    if w == array[1]
       w
     else 
       w + "s"
