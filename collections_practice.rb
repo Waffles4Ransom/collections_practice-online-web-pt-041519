@@ -39,4 +39,5 @@ def add_s(array)
     else 
       w + "s"
     end
+  end
 end
