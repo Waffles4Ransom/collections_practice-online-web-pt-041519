@@ -33,5 +33,10 @@ def sum_array
 end
 
 def add_s(array)
-  array.each {|i| puts i + "s"}
+  array.map do |w|
+    if w[1] == w
+      w
+    else 
+      w + "s"
+    end
 end
